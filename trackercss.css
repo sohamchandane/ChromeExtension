@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+}
+
+button{
+    background-color: burlywood;
+    margin: 0.4rem 0rem;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border: 0.12rem solid black;
+}
+
+input{
+    width: 100%;
+    padding: 0.6rem;
+}
+
+input:focus{
+    background-color: lightgoldenrodyellow;
+}
+
+ul{
+    margin: 0.5rem 0rem;
+    padding: 0.5rem 0rem;
+    list-style: none;
+}
+
+li{
+    font-size: 1rem;
+    padding: 0.3rem 0rem;
+}
+
+li > a{
+    color: brown;
+}
